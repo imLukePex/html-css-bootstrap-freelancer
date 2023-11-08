@@ -1,0 +1,105 @@
+/* Stili Header */
+.container-fluid {
+    background-color: #2c3e50;
+    min-height: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 500;
+    --bs-gutter-x: 0;
+}
+
+.ms_container {
+    width: 95%;
+    margin: 0 auto;
+
+    /* DEBUG */
+    min-height: 100px;
+    border: 1px solid black;
+}
+
+/* Stili Main */
+main {
+    padding-top: 100px;
+}
+
+#ms_jumbotron, #ms_about {
+    background-color: #1abc9c;
+    min-height: 500px;
+    padding-top: 30px;
+}
+
+.img-container {
+    border-radius: 50%;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.img-container img {
+    width: 100%;
+}
+
+/* .title-container {
+    position: relative;
+}
+
+.title-container::after {
+    content: '';
+    position: absolute;
+    top: 22px;
+    left: 30%;
+    background: #ffff;
+    width: 40px;
+    height: 3px;
+} */
+
+.main-title {
+    font-size: 35px;
+    font-weight: 600;
+    color: #ffff;
+}
+
+.subtitle {
+    font-weight: 600;
+    color: #ffff;
+    padding: 30px 0;
+}
+
+#ms_portfolio {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 25px;
+}
+
+.card {
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: black;
+    min-height: 400px;
+}
+
+[class*="col-"] {
+    margin: 20px 0;
+}
+
+.about {
+    color: #ffff;
+}
+
+#footer-top {
+    background-color: #3a546d;
+}
+
+#footer-top .row {
+    width: 100%;
+    margin: 0 auto;
+}
+
+#footer-bottom {
+    background-color: #2c3e50;
+    height: 100px;
+}
