@@ -8,7 +8,11 @@
     border: 1px solid black;
 }
 
-.navbar-light .navbar-brand {
+header .navbar {
+    height: 100px;
+}
+
+header .navbar-light .navbar-brand {
     color: #ffff;
 }
 
