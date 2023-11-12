@@ -92,9 +92,13 @@ main {
     margin: 20px 0;
 }
 
-.card {
-    width: 80%;
+#ms_portfolio .row {
+    width: 95%;
     margin: 0 auto;
+}
+
+.card {
+    width: 100%;
     border-radius: 20px;
 }
 
@@ -123,16 +127,136 @@ main {
     font-size: 30px;
 }
 
-#footer-top {
-    background-color: #3a546d;
-}
-
-#footer-top .row {
-    width: 100%;
+#ms_about .about {
+    width: 80%;
     margin: 0 auto;
 }
 
-#footer-bottom {
+#ms_about .text-about {
+    color: #ffff;
+}
+
+#ms_about p {
+    margin-bottom: 0;
+}
+
+.about-button-container a i {
+    margin-right: 5px;
+}
+
+/* Stili Contatti */
+
+#ms_contact {
+    margin: 40px 0;
+}
+
+#ms_contact .decoration .line {
+    width: 70px;
+    height: 4px;
+    background-color: black;
+    margin: 0 10px;
+    border-radius: 20px;
+}
+
+#ms_contact .decoration i {
+    font-size: 30px;
+}
+
+#ms_contact .contact {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#ms_contact .contact-form {
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    padding: 0;
+}
+
+#ms_contact .contact-col {
+    margin: 5px;
+}
+
+#ms_contact .form-label {
+    margin: 0;
+}
+
+.contact-submit {
+    background-color: #1abc9c;
+    color: #ffff;
+}
+
+/* Stili Footer */
+
+/* Stili Footer Top */
+#ms_footer-top, #ms_footer-bottom {
+    color: #ffff;
+}
+
+#ms_footer-top {
+    background-color: #3a546d;
+    padding: 40px 0;
+}
+
+#ms_footer-top .row {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.footer-top-content .footer-title {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.footer-top-content .footer-text {
+    font-size: 18px;
+}
+
+#ms_footer-top a {
+    text-decoration: none;
+}
+
+.footer-icons {
+    margin-top: 10px;
+}
+
+.footer-icons a {
+    color: #ffff;
+    font-size: 22px;
+}
+
+.footer-icons i {
+    border: 1px solid #ffff;
+    border-radius: 50px;
+    margin: 0 5px;
+}
+
+.footer-icons .fa-facebook-f {
+    padding: 22px 27px;
+}
+
+.footer-icons .fa-google-plus-g {
+    padding: 22px;
+}
+
+.footer-icons .fa-twitter {
+    padding: 22px;
+}
+
+.footer-icons .fa-linkedin-in {
+    padding: 22px 25px;
+}
+
+.footer-top-content .footer-text a {
+    color: #1abc9c;
+}
+
+/* Stili Footer Down */
+#ms_footer-bottom {
     background-color: #2c3e50;
     height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
